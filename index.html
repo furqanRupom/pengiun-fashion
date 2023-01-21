@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/5683bafbfa.js" crossorigin="anonymous"></script>
     <title>Penguin fashion</title>
 </head>
+
 <body>
     <!-- header section -->
 
-    <header class="container mx-auto px-10 md:px-16 bg-yellow-50">
-        <section class="flex justify-between items-center py-5 ">
+    <header class="container mx-auto px-10  bg-yellow-50 max-w-7xl">
+        <section class="flex justify-between items-center py-5  ">
+
             <div class="logo flex items-center space-x-1">
-               <img src="./icons/Group 33071.png" alt="">
-               <h1 class="text-2xl font-bold">Penguin <span class="text-lime-500">Fashion</span></h1>
+                <img src="./icons/Group 33071.png" alt="">
+                <h1 class="text-lg md:text-2xl font-bold">Penguin <span class="text-lime-500">Fashion</span></h1>
             </div>
 
+
+
             <nav class="hidden md:block">
-                <ul class="flex space-x-10">
-                    <li class="list-none"><a href="" class="no-underline text-gray-500 font-medium hover:text-gray-400">Home</a></li>
-                    <li class="list-none"><a href="" class="no-underline text-gray-500 font-medium hover:text-gray-400">About</a></li>
-                    <li class="list-none"><a href="" class="no-underline text-gray-500 font-medium hover:text-gray-400">Contact</a></li>
-                    <li class="list-none"><a href="" class="no-underline text-gray-500 font-medium hover:text-gray-400">Shop</a></li>
+                <ul class="flex space-x-8">
+                    <li class="list-none"><a href=""
+                            class="no-underline text-gray-500 font-medium hover:text-gray-400">Home</a></li>
+                    <li class="list-none"><a href=""
+                            class="no-underline text-gray-500 font-medium hover:text-gray-400">About</a></li>
+                    <li class="list-none"><a href=""
+                            class="no-underline text-gray-500 font-medium hover:text-gray-400">Contact</a></li>
+                    <li class="list-none"><a href=""
+                            class="no-underline text-gray-500 font-medium hover:text-gray-400">Shop</a></li>
                 </ul>
             </nav>
             <div class="hamburger md:hidden">
@@ -31,10 +41,11 @@
         </section>
 
 
-        <section class="flex items-center justify-between flex-col md:flex-row space-y-5 space-x-0 md:space-y-0 md:space-x-4 py-10">
+        <section
+            class="flex items-center justify-between  flex-col  md:flex-row space-y-5 space-x-0 md:space-y-0  py-10">
 
             <div>
-                <h1 class="uppercase text-5xl text-slate-700 font-bold">
+                <h1 class="uppercase text-4xl md:text-5xl lg:text-7xl text-slate-700 font-bold">
                     <span class="text-yellow-400"> Be the penguins</span> <br>
                     of winter
                 </h1>
@@ -43,19 +54,166 @@
                     <br>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, numquam!
                 </p>
-                
 
-                a.bg-lime-500.px-5
-                <!-- <button class="bg-lime-500 px-5 py-2 rounded-md">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                      </svg>
-                      Buy Now
-                </button> -->
+                <button
+                    class="bg-gradient-to-tr from-lime-500 to-lime-600 text-white  rounded-md  space-x-3 px-5 py-3 mt-5">
+                    <span>
+                        <i class="fas fa-shopping-cart"></i>
+
+                        Buy Now
+                </button>
+
             </div>
 
-            <img class="" src="./images/model.png" alt="">
+            <img src="./images/model.png" alt="">
         </section>
     </header>
+
+
+
+    <main class="container mx-auto p-10 max-w-7xl">
+        <section>
+            <h1 class="uppercse text-center md:text-left text-4xl font-semibold">Women Jacket</h1>
+    
+    
+            <section
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center p-10 gap-y-10 md:gap-x-10 lg:gap-y-0">
+    
+                <div class="px-5 py-8  bg-white rounded-lg  shadow-md max-w-sm">
+                    <img class="bg-gray-50  p-3 rounded-lg" src="./images/jacket-1.png" alt="">
+                    <div class="flex flex-col space-y-1">
+                        <h1 class="text-2xl font-semibold py-1">Yellow Coat Jacket</h1>
+                        <p class="text-gray-400 leading-relaxed">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste consequatur sint odio!</p>
+                        
+                        <div class="flex items-center justify-between pt-4">
+                            <h1 class="text-5xl font-bold text-amber-400">$199</h1>
+                            <button
+                                class="bg-gradient-to-tr from-lime-500 to-lime-600 text-white  rounded-md  space-x-3 px-6 py-4 text-xl font-semibold">
+                                <span>
+                                    <i class="fas fa-shopping-cart"></i>
+        
+                                    Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-5 py-8  bg-white rounded-lg shadow-md max-w-sm">
+                    <img class="bg-gray-50 p-3 rounded-lg" src="./images/jacket-2.png" alt="">
+                    <div class="flex flex-col space-y-1">
+                        <h1 class="text-2xl font-semibold py-1">Yellow Coat Jacket</h1>
+                        <p class="text-gray-400 leading-relaxed">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste consequatur sint odio!</p>
+                        
+                        <div class="flex items-center justify-between pt-4">
+                            <h1 class="text-5xl font-bold text-amber-400">$199</h1>
+                            <button
+                                class="bg-gradient-to-tr from-lime-500 to-lime-600 text-white  rounded-md  space-x-3 px-6 py-4 text-xl font-semibold">
+                                <span>
+                                    <i class="fas fa-shopping-cart"></i>
+        
+                                    Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class=" px-5 py-8   bg-white rounded-lg shadow-md max-w-sm">
+                    <img class="bg-gray-50 p-3 rounded-lg" src="./images/jacket-3.png" alt="">
+                    <div class="flex flex-col space-y-1">
+                        <h1 class="text-2xl font-semibold py-1">Yellow Coat Jacket</h1>
+                        <p class="text-gray-400 leading-relaxed">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste consequatur sint odio!</p>
+                        
+                        <div class="flex items-center justify-between pt-4">
+                            <h1 class="text-5xl font-bold text-amber-400">$199</h1>
+                            <button
+                                class="bg-gradient-to-tr from-lime-500 to-lime-600 text-white  rounded-md  space-x-3 px-6 py-4 text-xl font-semibold">
+                                <span>
+                                    <i class="fas fa-shopping-cart"></i>
+        
+                                    Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+    
+    
+    
+    
+            </section>
+
+        </section>
+
+
+        <section>
+            <h1 class="uppercse text-center md:text-left text-4xl font-semibold">men Jacket</h1>
+    
+    
+            <section
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center p-10 gap-y-10 md:gap-x-10 lg:gap-y-0">
+    
+                <div class="px-5 py-8  bg-white rounded-lg  shadow-md max-w-sm">
+                    <img class="bg-gray-50  p-3 rounded-lg" src="./images/jacket-1.png" alt="">
+                    <div class="flex flex-col space-y-1">
+                        <h1 class="text-2xl font-semibold py-1">Yellow Coat Jacket</h1>
+                        <p class="text-gray-400 leading-relaxed">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste consequatur sint odio!</p>
+                        
+                        <div class="flex items-center justify-between pt-4">
+                            <h1 class="text-5xl font-bold text-amber-400">$199</h1>
+                            <button
+                                class="bg-gradient-to-tr from-lime-500 to-lime-600 text-white  rounded-md  space-x-3 px-6 py-4 text-xl font-semibold">
+                                <span>
+                                    <i class="fas fa-shopping-cart"></i>
+        
+                                    Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-5 py-8  bg-white rounded-lg shadow-md max-w-sm">
+                    <img class="bg-gray-50 p-3 rounded-lg" src="./images/jacket-2.png" alt="">
+                    <div class="flex flex-col space-y-1">
+                        <h1 class="text-2xl font-semibold py-1">Yellow Coat Jacket</h1>
+                        <p class="text-gray-400 leading-relaxed">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste consequatur sint odio!</p>
+                        
+                        <div class="flex items-center justify-between pt-4">
+                            <h1 class="text-4xl font-bold text-amber-400">$199</h1>
+                            <button
+                                class="bg-gradient-to-tr from-lime-500 to-lime-600 text-white  rounded-md  space-x-3 px-4 py-3 text-lg font-semibold">
+                                <span>
+                                    <i class="fas fa-shopping-cart"></i>
+        
+                                    Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class=" px-5 py-8   bg-white rounded-lg shadow-md max-w-sm">
+                    <img class="bg-gray-50 p-3 rounded-lg" src="./images/jacket-3.png" alt="">
+                    <div class="flex flex-col space-y-1">
+                        <h1 class="text-2xl font-semibold py-1">Yellow Coat Jacket</h1>
+                        <p class="text-gray-400 leading-relaxed">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste consequatur sint odio!</p>
+                        
+                        <div class="flex items-center justify-between pt-4">
+                            <h1 class="text-5xl font-bold text-amber-400">$199</h1>
+                            <button
+                                class="bg-gradient-to-tr from-lime-500 to-lime-600 text-white  rounded-md  space-x-3 px-6 py-4 text-xl font-semibold">
+                                <span>
+                                    <i class="fas fa-shopping-cart"></i>
+        
+                                    Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+    
+    
+    
+    
+            </section>
+
+        </section>
+
+
+
+    </main>
 </body>
+
 </html>
